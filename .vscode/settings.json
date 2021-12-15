@@ -19,5 +19,6 @@
     "titleBar.inactiveBackground": "#cf1b6899",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "peacock.color": "#cf1b68"
+  "peacock.color": "#cf1b68",
+  "cSpell.words": ["IPFS", "Vite", "Vitejs"]
 }
