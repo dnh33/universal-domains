@@ -1,12 +1,11 @@
-import React from "react";
+import { Router, Link } from "@gatsbyjs/reach-router";
 import Navbar from "../../components/nav/Navbar";
-
-export default function Home() {
+export default function Faq() {
   return (
     <>
       <div>
         <Navbar />
-        <div>this is the Home page</div>
+        <div>this is the FAQ page</div>
       </div>
     </>
   );

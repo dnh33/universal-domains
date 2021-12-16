@@ -2,7 +2,7 @@ import { Router } from "@gatsbyjs/reach-router";
 import "./App.css";
 import About from "./views/about/About";
 import Home from "./views/home/Home";
-import Explorer from "./views/explorer/Explorer";
+import Faq from "./views/faq/Faq";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <Router>
         <Home path="/" />
         <About path="/about" />
-        <Explorer path="/explorer" />
+        <Faq path="/faq" />
       </Router>
     </div>
   );
