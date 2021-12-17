@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <div>
         <Navbar />
-        <div>this is the Home page</div>
+        <div className="text-center">this is the Home page</div>
       </div>
     </>
   );

@@ -5,7 +5,7 @@ export default function Faq() {
     <>
       <div>
         <Navbar />
-        <div>this is the FAQ page</div>
+        <div className="text-center">this is the FAQ page</div>
       </div>
     </>
   );
