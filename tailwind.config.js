@@ -8,12 +8,16 @@ module.exports = {
         "conical-purple": "#521AC2",
         "conical-pink": "#E502C2",
       },
+      fontSize: {
+        70: "70px",
+      },
       borderRadius: {
         entrypoint: "5rem",
         80: "80px",
       },
       margin: {
         59: "59px",
+        "entrypoint-title": "69px",
       },
       height: {
         "entrypoint-searchbox-height": "100vh",
