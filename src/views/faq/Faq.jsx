@@ -3,10 +3,8 @@ import Navbar from "../../components/nav/Navbar";
 export default function Faq() {
   return (
     <>
-      <div>
-        <Navbar />
-        <div className="text-center">this is the FAQ page</div>
-      </div>
+      <Navbar />
+      <div className="text-center">this is the FAQ page</div>
     </>
   );
 }

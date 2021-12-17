@@ -4,7 +4,6 @@ export default function About() {
   return (
     <>
       <Navbar />
-
       <div className="text-center">this is the About page</div>
     </>
   );

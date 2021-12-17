@@ -1,13 +1,14 @@
 import React from "react";
+import Searchbox from "../../components/containers/Searchbox";
 import Navbar from "../../components/nav/Navbar";
 
 export default function Home() {
   return (
-    <>
-      <div>
-        <Navbar />
-        <div className="text-center">this is the Home page</div>
+    <section>
+      <Navbar />
+      <div className="mx-auto">
+        <Searchbox />
       </div>
-    </>
+    </section>
   );
 }

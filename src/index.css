@@ -8,21 +8,29 @@ html {
 
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
   font-family: "Poppins Regular", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+html,
 body {
-  background-image: url("./img/bg.jpg");
-  /* Full height */
   height: 100vh;
-
+  background-image: url("./img/bg.jpg");
   /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.conical-gradient {
+  background: conic-gradient(
+    from 0deg at 49.96% 30.7%,
+    #521ac2 0deg,
+    #e502c2 360deg
+  );
+  transform: rotate(-180deg);
 }
 
 @font-face {
