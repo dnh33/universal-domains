@@ -15,9 +15,9 @@ export default function Searchbox() {
       <h1 className=".z-10 mt-entrypoint-title mx-auto text-4xl md:text-5xl lg:text-6xl xl:text-70 text-white">
         <span className="uppercase font-bold">universal domains</span>
       </h1>
-      <h2 className=".z-20 mx-auto text-4xl md:text-5xl lg:text-6xl xl:text-70 text-white">
-        <span className="uppercase font-bold">the </span>easiest way to get an
-        IPFS domain
+      <h2 className=".z-20 mt-67 mx-auto text-xl md:text-2xl lg:text-3xl xl:text-4xl text-white font-bold">
+        <span className="capitalize">the </span>easiest way to get an IPFS
+        domain
       </h2>
     </section>
   );

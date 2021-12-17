@@ -17,6 +17,7 @@ module.exports = {
       },
       margin: {
         59: "59px",
+        67: "67px",
         "entrypoint-title": "69px",
       },
       height: {
