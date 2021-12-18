@@ -13,18 +13,25 @@ module.exports = {
       },
       borderRadius: {
         entrypoint: "5rem",
+        50: "50px",
         80: "80px",
+      },
+      outlineWidth: {
+        twelve: "13px",
+        10: "10px",
+        9: "9px",
       },
       margin: {
         59: "59px",
         67: "67px",
-        "entrypoint-title": "69px",
+        "entrypoint-title": "27px",
       },
       height: {
         "entrypoint-searchbox-height": "100vh",
       },
       width: {
         "entrypoint-searchbox-width": "78.8125rem",
+        "entrypoint-searchBar-width": "48.75rem",
         "entrypoint-nav": "83.8125rem",
       },
     },

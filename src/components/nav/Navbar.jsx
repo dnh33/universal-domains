@@ -7,19 +7,19 @@ export default function Navbar() {
       <div className="md:flex content-center items-center">
         <Link
           to="/"
-          className="text-xl py-4 px-6 text-white font-semibold hover:animate-pulse"
+          className="text-xl py-4 px-6 text-white font-semibold hover:animate-pulse hover:from-pink-500 hover:to-yellow-500"
         >
           <span className="uppercase shadow">home</span>
         </Link>
         <Link
           to="/about"
-          className="text-xl py-4 px-6 text-white font-semibold hover:animate-pulse"
+          className="text-xl py-4 px-6 text-white font-semibold hover:animate-pulse hover:from-pink-500 hover:to-yellow-500"
         >
           <span className="uppercase shadow">about</span>
         </Link>
         <Link
           to="/faq"
-          className="text-xl py-4 px-6 text-white font-semibold hover:animate-pulse"
+          className="text-xl py-4 px-6 text-white font-semibold hover:animate-pulse hover:from-pink-500 hover:to-yellow-500"
         >
           <span className="uppercase shadow">faq</span>
         </Link>
