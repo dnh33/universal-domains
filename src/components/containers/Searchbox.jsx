@@ -1,14 +1,14 @@
 import React from "react";
 
+/* made w/💓 in ＡＮ🎙️ＥＮＴＲＹＰＯＩＮＴ */
+
 /* font-family: Poppins;
 font-style: normal;
 font-weight: 600;
 font-size: 22px;
 line-height: 33px;
-
-color: #FFFFFF;
-
-text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
+text-align: center;
+ */
 
 export default function Searchbox() {
   return (

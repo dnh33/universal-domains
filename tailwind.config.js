@@ -24,7 +24,7 @@ module.exports = {
       margin: {
         59: "59px",
         67: "67px",
-        "entrypoint-title": "27px",
+        "entrypoint-title": "54px",
       },
       height: {
         "entrypoint-searchbox-height": "100vh",
