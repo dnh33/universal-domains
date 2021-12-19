@@ -9,10 +9,10 @@ export default function TypeEffect() {
         options={{
           strings: [
             "HyperWeb",
-            "Uncensorable",
+            "Censorship Resistant",
             "Decentralized",
             "Unstoppable",
-            "Freemdom First",
+            "Freedom First",
           ],
           autoStart: true,
           loop: true,
