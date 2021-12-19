@@ -1,4 +1,5 @@
 import React from "react";
+import Typewriter from "../typewriter/TypeEffect";
 
 /* made w/💓 in ＡＮ🎙️ＥＮＴＲＹＰＯＩＮＴ */
 
@@ -19,7 +20,9 @@ export default function Searchbox() {
       <h2 className=".z-20 mt-67 mx-auto text-xl md:text-2xl lg:text-3xl xl:text-4xl text-shadow text-white font-light">
         <span className="capitalize">the </span>easiest way to get a{" "}
         <span class="relative before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-600 shadow-3xl inline-block">
-          <span class="relative laborate text-white">HyperWeb</span>
+          <span class="relative text-white">
+            <Typewriter className="laborate" />{" "}
+          </span>
         </span>{" "}
         domain
       </h2>
