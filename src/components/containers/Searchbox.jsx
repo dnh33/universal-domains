@@ -1,16 +1,6 @@
 import React from "react";
 import Typewriter from "../typewriter/TypeEffect";
 
-/* made w/💓 in ＡＮ🎙️ＥＮＴＲＹＰＯＩＮＴ */
-
-/* font-family: Poppins;
-font-style: normal;
-font-weight: 600;
-font-size: 22px;
-line-height: 33px;
-text-align: center;
- */
-
 export default function Searchbox() {
   return (
     <section className="fixed flex flex-col mx-auto left-0 right-0 md:rounded-80 h-entrypoint-searchbox-height sm:w-full md:w-4/5 lg:w-4/5 xl:w-entrypoint-searchbox-width conical-gradient border-solid border-b-4 border-x-4 border-opacity-10 border-black">
@@ -42,6 +32,22 @@ export default function Searchbox() {
           </div>
         </div>
       </div>
+      <p className="mt-64 text-xl text-shadow-2 text-white font-medium text-center">
+        made w/💓 in ＡＮ🎙️ＥＮＴＲＹＰＯＩＮＴ
+      </p>
+      <p className="mt-8 text-lg text-shadow-2 text-white font-medium text-center">
+        anEntrypoint HyperWeb Solution
+      </p>
     </section>
   );
 }
+
+/* made w/💓 in ＡＮ🎙️ＥＮＴＲＹＰＯＩＮＴ */
+
+/* font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 33px;
+text-align: center;
+ */

@@ -1,7 +1,6 @@
 @font-face {
   font-family: "laborate";
-  src: local("laborate"), url("laborate.woff2") format("woff2"),
-    url("laborate.woff") format("woff");
+  src: local("laborate") url("laborate.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
