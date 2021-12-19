@@ -18,7 +18,7 @@ export default function Searchbox() {
         <span className="uppercase font-bold">universal domains</span>
       </h1>
       <h2 className=".z-20 mt-67 mx-auto text-xl md:text-2xl lg:text-3xl xl:text-4xl text-shadow text-white font-light">
-        <span className="capitalize">the </span>easiest way to get a{" "}
+        <span className="capitalize">the </span>easiest way to get{" "}
         <span class="relative before:block before:absolute before:-inset-1 before:-skew-y-3 before:bg-pink-600 shadow-3xl inline-block">
           <span class="relative text-white">
             <Typewriter className="laborate" />{" "}
