@@ -1,9 +1,6 @@
 module.exports = {
   content: ["./src/**/*.{html,js,jsx}"],
   theme: {
-    fontFamily: {
-      display: ["Laborate"],
-    },
     extend: {
       colors: {
         "entry-purple": "#461BC2",

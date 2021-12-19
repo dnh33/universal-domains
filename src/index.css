@@ -112,8 +112,3 @@ body {
   src: local("Poppins Extra Bold"),
     url("fonts/Poppins-ExtraBold.ttf") format("ttf");
 }
-@font-face {
-  font-family: "Laborate";
-  src: local("Laborate"), 
-    url("fonts/Laborate.ttf") format("ttf");
-}
