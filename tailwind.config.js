@@ -8,6 +8,7 @@ module.exports = {
         "conical-purple": "#521AC2",
         "conical-pink": "#E502C2",
       },
+      display: ["laborate"],
       fontSize: {
         70: "70px",
       },
