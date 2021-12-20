@@ -25,14 +25,17 @@ module.exports = {
       margin: {
         59: "59px",
         67: "67px",
+        1440: "11rem",
+        1920: "19.5%",
         "entrypoint-title": "54px",
       },
       height: {
-        "entrypoint-searchbox-height": "100vh",
+        "searchbox-height": "100vh",
       },
       width: {
-        "entrypoint-searchbox-width": "78.8125rem",
-        "entrypoint-searchBar-width": "48.75rem",
+        "searchBar-width-medium": "30rem",
+        "searchBar-width": "48.75rem",
+        "searchbox-width": "78.8125rem",
         "entrypoint-nav": "83.8125rem",
       },
     },
