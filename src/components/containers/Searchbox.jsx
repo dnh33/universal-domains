@@ -16,7 +16,7 @@ export default function Searchbox() {
       </h1>
       <h2 className=".z-20 mt-67 mx-auto text-xl md:text-2xl lg:text-3xl xl:text-4xl text-shadow text-white font-light">
         <span className="capitalize">the </span>easiest way to get a{" "}
-        <span className="relative before:block before:absolute before:-inset-1 before:-skew-y-2 before:bg-pink-600 shadow-3xl inline-block">
+        <span className="relative before:block before:absolute before:-inset-1 before:-skew-y-1 before:bg-pink-600 shadow-3xl inline-block">
           <span className="relative text-white">
             <Typewriter className="laborate" />{" "}
           </span>
@@ -39,7 +39,7 @@ export default function Searchbox() {
         <p className="md:mt-52 lg:mt-44 xl:mt-1440 2xl:mt-1920 text-xl text-shadow-2 text-white font-medium text-center">
           made w/💓 in ＡＮ🎙️ＥＮＴＲＹＰＯＩＮＴ
         </p>
-        <p className="md:mt-5 xl:mt-5 text-lg text-shadow-2 text-white font-medium text-center">
+        <p className="md:mt-5 xl:mt-5 2xl:mt-10 text-lg text-shadow-2 text-white font-medium text-center">
           anEntrypoint HyperWeb Solution
         </p>
       </footer>
