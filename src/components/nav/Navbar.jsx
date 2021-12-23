@@ -9,7 +9,7 @@ export default function Navbar() {
     <nav className="flex items-center justify-around flex-wrap p-6 mx-auto sm:w-full md:w-11/12 lg:w-4/5 xl:w-entrypoint-nav h-28 mb-4 md:mb-8 lg:mb-59 drop-shadow-lg border-solid border-b-4 border-x-4 border-opacity-10 border-black md:rounded-b-entrypoint bg-gradient-to-r from-entry-pink to-entry-purple">
       <Logo />
       <div className="md:flex content-center items-center">
-        {url !== "http://localhost:3000/" ? (
+        {url !== "https://naughty-bhaskara-247748.netlify.app/" ? (
           <Link
             to="/"
             className="text-xl py-4 px-6 text-white font-semibold hover:animate-pulse hover:from-pink-500 hover:to-yellow-500"
