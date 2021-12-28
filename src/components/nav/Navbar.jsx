@@ -22,6 +22,7 @@ export default function Navbar() {
         <a
           href="https://github.com/AnEntrypoint/universal-domains/wiki"
           target="_blank"
+          rel="noopener"
           className="text-xl py-4 px-6 text-white font-semibold hover:animate-pulse hover:from-pink-500 hover:to-yellow-500"
         >
           <span className="uppercase shadow">wiki</span>
