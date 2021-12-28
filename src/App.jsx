@@ -1,21 +1,24 @@
+import React, { Suspense } from "react";
 import { Router } from "@gatsbyjs/reach-router";
+import Loading from "./components/loading/Loading";
+const Home = React.lazy(() => import("./views/home/Home"));
+const About = React.lazy(() => import("./views/about/About"));
+const Faq = React.lazy(() => import("./views/faq/Faq"));
+const Videos = React.lazy(() => import("./views/videos/Videos"));
+
 import "./App.css";
-import About from "./views/about/About";
-import Home from "./views/home/Home";
-import Faq from "./views/faq/Faq";
-import NotFound from "./views/404/NotFound";
-import Videos from "./views/videos/Videos";
 
 function App() {
   return (
     <div className="App">
-      <Router>
-        <Home path="/" />
-        <About path="about" />
-        <Faq path="faq" />
-        <Videos path="videos" />
-        <NotFound default />
-      </Router>
+      <Suspense fallback={<Loading />}>
+        <Router>
+          <Home path="/" />
+          <About path="about" />
+          <Faq path="faq" />
+          <Videos path="videos" />
+        </Router>
+      </Suspense>
     </div>
   );
 }
