@@ -90,10 +90,10 @@ export default function Searchbox() {
       </div>
       <footer className="fixed md:bottom-8 xl:bottom-8 2xl:bottom-8 left-0 right-0">
         <p className="text-md text-shadow-2 text-white font-medium text-center">
-          made w/💓 in ＡＮ🎙️ＥＮＴＲＹＰＯＩＮＴ
+          An Internet Breaking hyper dApp made w/💓.
         </p>
         <p className="md:mt-5 xl:mt-5 2xl:mt-6 text-md text-shadow-2 text-white font-medium text-center">
-          anEntrypoint HyperWeb Solution
+          ©️ 2022 ＡＮ🎙️ＥＮＴＲＹＰＯＩＮＴ
         </p>
       </footer>
     </section>
