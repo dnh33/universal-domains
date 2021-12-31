@@ -1,4 +1,5 @@
 import React from "react";
+import BurgerMenu from "./BurgerMenu";
 import Logo from "./Logo";
 import Nav from "./Nav";
 import NavLink from "./NavLink";
@@ -10,7 +11,7 @@ export default function Navbar() {
     <Nav>
       <Logo />
 
-      <div className="md:flex content-center items-center">
+      <div className="hidden lg:flex content-center items-center">
         {url !== "https://naughty-bhaskara-247748.netlify.app/" ? (
           <NavLink url="/">home</NavLink>
         ) : null}
@@ -30,6 +31,7 @@ export default function Navbar() {
 
         <NavLink url="/faq">faq</NavLink>
       </div>
+      <BurgerMenu />
     </Nav>
   );
 }
