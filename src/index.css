@@ -2,10 +2,6 @@
 @import url(./styles/conical-gradient.css);
 @import url(./styles/shadows.css);
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
 * {
   margin: 0;
   padding: 0;
@@ -18,8 +14,13 @@ html,
 body {
   height: 100vh;
   scroll-behavior: smooth;
-  background-image: url(img/bg.jpg);
+  background: linear-gradient(69deg, rgba(231,119,227,1) 0%, rgba(182,100,233,1) 100%);
+  /* background-image: url(img/bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
