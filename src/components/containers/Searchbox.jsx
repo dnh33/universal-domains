@@ -1,5 +1,5 @@
 import { navigate } from "@gatsbyjs/reach-router";
-import React, { useState } from "react";
+import React, { useState, Suspense } from "react";
 import Typewriter from "../typewriter/TypeEffect";
 
 export default function Searchbox() {
@@ -7,7 +7,7 @@ export default function Searchbox() {
   const [formValue, setFormValue] = useState("");
 
   function ClaimDomain() {
-    setTimeout(
+    const timer = setTimeout(
       () => navigate(`https://dashboard.entrypoint.ga/${formValue}`),
       1000
     );
@@ -22,13 +22,11 @@ export default function Searchbox() {
   }
 
   return (
-    <section className="fixed flex flex-col mx-auto left-0 right-0 md:rounded-80 h-searchbox-height sm:w-full md:w-4/5 lg:w-4/5 xl:w-searchbox-width  md:conical-gradient border-solid border-b-4 border-x-4 border-opacity-10 border-black">
-      <h1 className=".z-10 mt-entrypoint-title mx-auto text-white box-shadow-custom">
-        <span className="text-2xl md:text-5xl lg:text-6xl xl:text-64 2xl:text-70 uppercase font-bold">
-          ◙universal domains◙
-        </span>
+    <section className="fixed flex flex-col mx-auto left-0 right-0 md:rounded-80 h-searchbox-height sm:w-full md:w-4/5 lg:w-4/5 xl:w-searchbox-width conical-gradient border-solid border-b-4 border-x-4 border-opacity-10 border-black">
+      <h1 className=".z-10 mt-entrypoint-title mx-auto text-4xl md:text-5xl lg:text-6xl xl:text-70 text-white box-shadow-custom">
+        <span className="uppercase font-bold">◙universal  domains◙</span> 
       </h1>
-      <h2 className=".z-20 mt-67 mx-auto hidden md:block md:text-2xl lg:text-3xl xl:text-4xl text-shadow text-white font-light">
+      <h2 className=".z-20 mt-67 mx-auto text-xl md:text-2xl lg:text-3xl xl:text-4xl text-shadow text-white font-light">
         <span className="capitalize">the </span>easiest way to get a{" "}
         <span className="relative before:block before:absolute before:-inset-1 before:-skew-y-1 before:bg-pink-600 shadow-3xl inline-block">
           <span className="relative text-white">
@@ -90,11 +88,11 @@ export default function Searchbox() {
           </div>
         </div>
       </div>
-      <footer className="fixed bottom-8 md:bottom-7 xl:bottom-8 2xl:bottom-8 left-0 right-0">
-        <p className="text-sm md:text-md text-shadow-2 text-white font-medium text-center">
+      <footer className="fixed md:bottom-8 xl:bottom-8 2xl:bottom-8 left-0 right-0">
+        <p className="text-md text-shadow-2 text-white font-medium text-center">
           An Internet Breaking hyper dApp made w/💓.
         </p>
-        <p className="text-sm mt-6 md:mt-5 xl:mt-5 2xl:mt-8 text-shadow-2 text-white font-medium text-center">
+        <p className="md:mt-5 xl:mt-5 2xl:mt-6 text-md text-shadow-2 text-white font-medium text-center">
           ©️ 2022 ＡＮ🎙️ＥＮＴＲＹＰＯＩＮＴ
         </p>
       </footer>
