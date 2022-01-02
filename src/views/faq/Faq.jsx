@@ -4,7 +4,7 @@ export default function Faq() {
   return (
     <>
       <Navbar />
-      <div class="bg-transparent py-6 sm:py-8 lg:py-12">
+      <div class="py-6 sm:py-8 lg:py-12">
         <div class="max-w-screen-2xl px-4 md:px-8 mx-auto">
           {/* <!-- text - start --> */}
           <div class="mb-10 md:mb-16">
@@ -39,7 +39,7 @@ export default function Faq() {
               </span>
 
               <h3 class="text-indigo-500 text-lg md:text-xl font-semibold mb-3">
-                What can I use uDNS for?
+                What can I use µDNS for?
               </h3>
               <p class="text-gray-500">
                 Domains can be used to host a game, a website, a chat server,
@@ -159,7 +159,7 @@ export default function Faq() {
                 There's a special case for users who want to expose http
                 services from behind a firewall, a method used by developers to
                 demonstrate their work in progress over the internet, you can
-                easily do this with the uDNS CLI client, it has a mode that
+                easily do this with the µDNS CLI client, it has a mode that
                 turns it into an
                 introspective-reverse-ssl-proxy-over-universal-dns.
               </p>
@@ -196,6 +196,7 @@ export default function Faq() {
           </div>
         </div>
       </div>
+      `
     </>
   );
 }

@@ -24,7 +24,7 @@ const Navbar = () => {
           rel="noopener"
           className="text-xl px-6 text-white font-semibold hover:animate-pulse hover:from-pink-500 hover:to-yellow-500"
         >
-          <span className="uppercase shadow">wiki</span>
+          <span className="uppercase">wiki</span>
         </a>
         <br />
         <NavLink url="/faq">faq</NavLink>
@@ -32,6 +32,7 @@ const Navbar = () => {
           Dashboard
         </li>
       </ul>
+      {/* BURGER MENU START HERE */}
       <div className="flex relative">
         {toggleMenu ? (
           <AiOutlineClose
@@ -51,24 +52,27 @@ const Navbar = () => {
             className="z-10 fixed top-0 -left-2 p-3 w-[70vw] h-screen shadow-2xl md:hidden list-none
               flex flex-col justify-start item-end rounded-md nav-glassmorphism text-white animate-slide-in"
           >
-            <li className="text-xl w-full my-2  ">
+            <li className="text-xl w-full p-2">
               <AiOutlineClose onClick={() => setToggleMenu(false)} />
             </li>
+            <br />
             {url !== "https://naughty-bhaskara-247748.netlify.app/" ? (
               <NavLink url="/">home</NavLink>
             ) : null}
+            <br />
             <NavLink url="/about">about</NavLink>
+            <br />
             <NavLink url="/videos">videos</NavLink>
-
+            <br />
             <a
               href="https://github.com/AnEntrypoint/universal-domains/wiki"
               target="_blank"
               rel="noopener"
-              className="text-xl  px-6 text-white font-semibold hover:animate-pulse hover:from-pink-500 hover:to-yellow-500"
+              className="text-xl px-6 text-white font-semibold hover:animate-pulse hover:from-pink-500 hover:to-yellow-500"
             >
-              <span className="uppercase shadow">wiki</span>
+              <span className="uppercase">wiki</span>
             </a>
-
+            <br />
             <NavLink url="/faq">faq</NavLink>
             <br />
             <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
