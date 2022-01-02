@@ -20,6 +20,14 @@ body {
   background-repeat: no-repeat;
   background-size: cover; */
 }
+.nav-glassmorphism {
+  background: linear-gradient(69deg, rgba(231,119,227,.75) 0%, rgba(182,100,233,.75) 100%);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
 
 @tailwind base;
 @tailwind components;
