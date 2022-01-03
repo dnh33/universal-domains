@@ -5,7 +5,7 @@ import Navbar from "../../components/nav/Navbar";
 export default function About() {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
       <div className="py-6 sm:py-8 lg:py-12">
         <div className="max-w-screen-2xl px-4 md:px-8 mx-auto">
           {/* <!-- text - start --> */}
@@ -13,7 +13,7 @@ export default function About() {
             <h2 className="text-white text-3xl lg:text-3xl font-bold text-center drop-shadow:lg mb-4 md:mb-6">
               About
             </h2>
-            <p className="max-w-screen-md text-gray-100 md:text-lg text-center bg-gradient-to-tr from-fuchsia-500 via-conical-pink rounded-2xl mx-auto">
+            <p className="max-w-screen-md text-gray-100 md:text-lg text-center mx-auto">
               The Domain Name System (DNS) is the hierarchical and{" "}
               <code>decentralized</code> naming system used to identify
               computers, services, and other resources reachable through the
