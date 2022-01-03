@@ -21,11 +21,9 @@ export default function Searchbox() {
   }
 
   return (
-    <section className="fixed flex flex-col mx-auto left-0 right-0 md:rounded-80 h-searchbox-height sm:w-full md:w-4/5 lg:w-4/5 xl:w-searchbox-width">
+    <section className="fixed flex flex-col mx-auto left-0 right-0 md:rounded-80 sm:w-full md:w-4/5 lg:w-4/5">
       <h1 className=".z-10 mt-entrypoint-title mx-auto text-white box-shadow-custom">
-        <span className="text-5xl flex md: justify-center">
-          µniversal
-        </span>
+        <span className="text-5xl flex md: justify-center">µniversal</span>
         <span className="text-5xl flex md: justify-center">naming service</span>
       </h1>
       <h2 className=".z-20 mt-67 mx-auto md:block md:text-2xl lg:text-3xl xl:text-4xl text-shadow text-white font-light">
@@ -38,13 +36,13 @@ export default function Searchbox() {
         domain
       </h2>
       <div>
-        <div className="container flex justify-center items-center mt-67 px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-center items-center mt-67 px-4 sm:px-6 lg:px-8">
           <div className="relative rounded-80 bg-transparent">
             {" "}
             <form onSubmit={submitHandler}>
               <input
                 type="text"
-                className="z-1 h-20 md:h-20 w-searchBar-width-medium xl:w-searchBar-width text-white placeholder-pink-200 bg-purple-500 bg-opacity-40 searchBar-dropShadow rounded-80 xl:text-2xl pr-8 pl-12 font-semibold focus:shadow"
+                className="z-1 h-20 text-white placeholder-pink-200 bg-purple-500 bg-opacity-40 searchBar-dropShadow rounded-80 xl:text-2xl pr-8 pl-12 font-semibold focus:shadow"
                 placeholder="Search for your next domain..."
                 onChange={(e) => {
                   setFormValue(e.target.value);
