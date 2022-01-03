@@ -24,8 +24,12 @@ export default function Searchbox() {
   return (
     <section className="fixed flex flex-col mx-auto left-0 right-0 md:rounded-80 h-searchbox-height sm:w-full md:w-4/5 lg:w-4/5 xl:w-searchbox-width  md:conical-gradient border-solid border-b-4 border-x-4 border-opacity-10 border-black">
       <h1 className=".z-10 mt-entrypoint-title mx-auto text-white box-shadow-custom">
-        <span className="text-2xl md:text-5xl lg:text-6xl xl:text-64 2xl:text-70 uppercase font-bold">
+        <span className="hidden md:flex text-2xl md:text-5xl lg:text-6xl xl:text-64 2xl:text-70 uppercase font-bold">
           universal domains
+        </span>
+
+        <span className=" md:hidden mt-36 text-5xl flex md:justify-center">
+          µDNS
         </span>
       </h1>
       <h2 className=".z-20 mt-67 mx-auto hidden md:block md:text-2xl lg:text-3xl xl:text-4xl text-shadow text-white font-light">
@@ -44,14 +48,14 @@ export default function Searchbox() {
             <form onSubmit={submitHandler}>
               <input
                 type="text"
-                className="z-0 h-14 sm:h-20 xl:h-24 md:h-20 w-searchBar-width-medium xl:w-searchBar-width text-white placeholder-white bg-purple-500 bg-opacity-40 searchBar-dropShadow rounded-80 text-sm xl:text-2xl md:pr-8 pl-4 md:pl-12 font-semibold focus:shadow"
+                className="z-0 h-14 sm:h-20 xl:h-24 md:h-20 w-searchBar-width-medium md:searchBar-width-tablet xl:w-searchBar-width text-white placeholder-white bg-purple-500 bg-opacity-40 searchBar-dropShadow rounded-80 text-sm xl:text-2xl md:pr-8 pl-4 md:pl-12 font-semibold focus:shadow"
                 placeholder="Search for your next domain..."
                 onChange={(e) => {
                   setFormValue(e.target.value);
                 }}
               />
               <div className="flex justify-end md:pr-10 mt-5">
-                <p className="font-bold text-white leading- text-shadow-3">
+                <p className="font-bold text-sm md:text-base text-white leading- text-shadow-3">
                   powered by{" "}
                   <a href="https://hypercore-protocol.org/">
                     Hypercore Protocol

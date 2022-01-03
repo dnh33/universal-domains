@@ -2,6 +2,7 @@ import { useState } from "react";
 import { HiMenuAlt4 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import NavLink from "./NavLink";
+import DashboardLink from "./DashboardLink";
 
 const Navbar = () => {
   const url = window.location.href;
@@ -28,9 +29,9 @@ const Navbar = () => {
         </a>
         <br />
         <NavLink url="/faq">faq</NavLink>
-        <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
-          Dashboard
-        </li>
+        <DashboardLink url="https://dashboard.entrypoint.ga/">
+          dashboard
+        </DashboardLink>
       </ul>
       {/* BURGER MENU START HERE */}
       <div className="flex relative">
@@ -50,7 +51,7 @@ const Navbar = () => {
         {toggleMenu && (
           <ul
             className="z-10 fixed top-0 -left-2 p-3 w-[70vw] h-screen shadow-2xl md:hidden list-none
-              flex flex-col justify-start item-end rounded-md nav-glassmorphism bg-pink-600 text-white animate-slide-in"
+              flex flex-col justify-start item-end rounded-md nav-glassmorphism bg-purple-400 text-white animate-slide-in"
           >
             <li className="text-xl w-full p-2">
               <AiOutlineClose onClick={() => setToggleMenu(false)} />
@@ -75,9 +76,9 @@ const Navbar = () => {
             <br />
             <NavLink url="/faq">faq</NavLink>
             <br />
-            <li className="bg-[#2952e3] py-2 px-7 mx-4 rounded-full cursor-pointer hover:bg-[#2546bd]">
-              Dashboard
-            </li>
+            <DashboardLink url="https://dashboard.entrypoint.ga/">
+              dashboard
+            </DashboardLink>
           </ul>
         )}
       </div>
