@@ -10,7 +10,6 @@ const Navbar = () => {
   console.log(url);
   return (
     <nav className="w-full flex md:justify-center justify-between items-center p-4">
-      <Logo />
       <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
         {url !== "https://naughty-bhaskara-247748.netlify.app/" ? (
           <NavLink url="/">home</NavLink>
@@ -51,7 +50,7 @@ const Navbar = () => {
         )}
         {toggleMenu && (
           <ul
-            className="z-10 fixed top-0 -right-2 p-3 w-[70vw] h-screen shadow-2xl md:hidden list-none
+            className="z-10 fixed top-0 -left-2 p-3 w-[70vw] h-screen shadow-2xl md:hidden list-none
               flex flex-col justify-start item-end rounded-md nav-glassmorphism text-white animate-slide-in"
           >
             <li className="text-xl w-full p-2">
@@ -83,6 +82,7 @@ const Navbar = () => {
           </ul>
         )}
       </div>
+      <Logo />
     </nav>
   );
 };

@@ -30,8 +30,10 @@ export default function About() {
               </li>
               <br />
               <li className="text-gray-100 md:text-lg text-center mx-auto">
-                <code>Low hanging fruit</code> are easy to pick. Let's make easy
-                to make and easily understandable apps.
+                <code>Low hanging fruit</code> are the <b>easiest</b> to pick.
+                <br />
+                We like making <code> to make</code> and easily
+                understandable apps.
               </li>
               <br />
               <li className="text-gray-100 md:text-lg text-center mx-auto">
@@ -40,11 +42,10 @@ export default function About() {
             </ul>
             <br />
             <p className="max-w-screen-md text-gray-100 md:text-lg text-center mx-auto">
-              udns means instant domains for everyone it is the{" "}
-              <code>d10e</code> version of existing free domain services
-              allowing claimable subdomains, people can register subdomains for
-              free turn domains into a dns paid services comes with tunneling
-              and dns services
+              <code>µns</code> means instant universal domains for everyone it is
+              s the version of existing free domain services allowing claimable
+              subdomains, people can register subdomains for free turn domains
+              into a dns paid services comes with tunneling and dns services
             </p>
             <br />
             <p className="max-w-screen-md text-gray-100 md:text-lg text-center mx-auto">
