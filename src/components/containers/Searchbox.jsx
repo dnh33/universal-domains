@@ -7,22 +7,19 @@ export default function Searchbox() {
   const [formValue, setFormValue] = useState("");
 
   function ClaimDomain() {
-    setTimeout(
-      () => navigate(`https://dashboard.entrypoint.ga/${formValue}`),
-      1000
-    );
+    setTimeout(() => navigate(`https://dashboard.avax.ga/${formValue}`), 1000);
   }
 
   async function submitHandler(e) {
     e.preventDefault();
     const data = await (
-      await fetch("https://exists.entrypoint.ga/" + `${formValue}`)
+      await fetch("https://exists.avax.ga/" + `${formValue}`)
     ).text();
     setExists(data);
   }
 
   return (
-    <section className="fixed flex flex-col mx-auto left-0 right-0 md:rounded-80 h-searchbox-height sm:w-full md:w-4/5 lg:w-4/5 xl:w-searchbox-width  md:conical-gradient border-solid border-b-4 border-x-4 border-opacity-10 border-black">
+    <section className="fixed flex flex-col mx-auto left-0 right-0 md:rounded-80 h-searchbox-height sm:w-full md:w-4/5 lg:w-4/5 xl:w-searchbox-width md:conical-gradient border-solid border-b-4 border-x-4 border-opacity-10 border-black">
       <h1 className=".z-10 mt-entrypoint-title 2xl:mt-24 mx-auto text-white box-shadow-custom">
         <span className="hidden md:flex text-2xl md:text-5xl lg:text-6xl xl:text-64 2xl:text-70 uppercase font-bold">
           universal domains
@@ -42,7 +39,7 @@ export default function Searchbox() {
         domain
       </h2>
       <div>
-        <div className="container flex justify-center items-center mt-67 px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-center items-center mt-67 px-4 sm:px-6 lg:px-8">
           <div className="relative rounded-80 bg-transparent">
             {" "}
             <form onSubmit={submitHandler}>
