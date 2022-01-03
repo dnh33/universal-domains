@@ -2,6 +2,7 @@ import { useState } from "react";
 import { HiMenuAlt4 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import NavLink from "./NavLink";
+import Logo from "./Logo";
 
 const Navbar = () => {
   const url = window.location.href;
@@ -9,6 +10,7 @@ const Navbar = () => {
   console.log(url);
   return (
     <nav className="w-full flex md:justify-center justify-between items-center p-4">
+      <Logo />
       <ul className="text-white md:flex hidden list-none flex-row justify-between items-center flex-initial">
         {url !== "https://naughty-bhaskara-247748.netlify.app/" ? (
           <NavLink url="/">home</NavLink>
