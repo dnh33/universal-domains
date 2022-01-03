@@ -1,7 +1,6 @@
 import { navigate } from "@gatsbyjs/reach-router";
 import React, { useState } from "react";
 import Typewriter from "../typewriter/TypeEffect";
-
 export default function Searchbox() {
   const [exists, setExists] = useState([]);
   const [formValue, setFormValue] = useState("");
@@ -24,7 +23,10 @@ export default function Searchbox() {
   return (
     <section className="fixed flex flex-col mx-auto left-0 right-0 md:rounded-80 h-searchbox-height sm:w-full md:w-4/5 lg:w-4/5 xl:w-searchbox-width">
       <h1 className=".z-10 mt-entrypoint-title mx-auto text-white box-shadow-custom">
-        <span className="text-5xl flex md: justify-center">µDNS</span>
+        <span className="text-5xl flex md: justify-center">
+          µniversal
+        </span>
+        <span className="text-5xl flex md: justify-center">naming service</span>
       </h1>
       <h2 className=".z-20 mt-67 mx-auto md:block md:text-2xl lg:text-3xl xl:text-4xl text-shadow text-white font-light">
         <span className="capitalize">the </span>easiest way to get a{" "}
@@ -51,7 +53,9 @@ export default function Searchbox() {
               <div className="flex justify-end pr-10 mt-5">
                 <p className="font-bold text-white leading- text-shadow-3">
                   powered by{" "}
-                  <a href="https://hypercore-protocol.org/">Hypercore Protocol</a>
+                  <a href="https://hypercore-protocol.org/">
+                    Hypercore Protocol
+                  </a>
                 </p>
               </div>
             </form>
