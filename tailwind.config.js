@@ -33,7 +33,7 @@ module.exports = {
         "searchbox-height": "100vh",
       },
       width: {
-        "searchBar-width-medium": "30rem",
+        "searchBar-width-medium": "18rem",
         "searchBar-width": "48.75rem",
         "searchbox-width": "78.8125rem",
         "entrypoint-nav": "83.8125rem",
