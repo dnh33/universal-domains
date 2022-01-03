@@ -42,16 +42,20 @@ export default function Searchbox() {
             <form onSubmit={submitHandler}>
               <input
                 type="text"
-                className="z-1 h-20 text-white placeholder-pink-200 bg-purple-500 bg-opacity-40 searchBar-dropShadow rounded-80 xl:text-2xl pr-8 pl-12 font-semibold focus:shadow"
+                className="z-0 h-14 sm:h-20 md:h-20 xl:h-24 w-sb-sm-mobile md:w-sb-md-mobile xl:w-searchBar-width pl-4 pr-4 md:pr-8 md:pl-12 xl:text-2xl text-white placeholder-white bg-purple-500 bg-opacity-40 searchBar-dropShadow rounded-80 font-semibold focus:shadow"
                 placeholder="Search for your next domain..."
                 onChange={(e) => {
                   setFormValue(e.target.value);
                 }}
               />
-              <div className="flex justify-end pr-10 mt-5">
-                <p className="font-bold text-white leading- text-shadow-3">
+              <div className="flex justify-end md:pr-10 mt-5">
+                <p className="font-bold text-sm md:text-base text-white leading- text-shadow-3">
                   powered by{" "}
-                  <a href="https://hypercore-protocol.org/">
+                  <a
+                    href="https://hypercore-protocol.org/"
+                    target="_blank"
+                    rel="noopener"
+                  >
                     Hypercore Protocol
                   </a>
                 </p>
