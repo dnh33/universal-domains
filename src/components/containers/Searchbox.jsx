@@ -44,7 +44,7 @@ export default function Searchbox() {
             <form onSubmit={submitHandler}>
               <input
                 type="text"
-                className="z-0 h-14 sm:h-20 xl:h-24  md:h-20 w-searchBar-width-medium xl:w-searchBar-width text-white placeholder-pink-200 bg-purple-500 bg-opacity-40 searchBar-dropShadow rounded-80 xl:text-2xl pr-8 pl-12 font-semibold focus:shadow"
+                className="z-1 h-20 md:h-20 w-searchBar-width-medium xl:w-searchBar-width text-white placeholder-pink-200 bg-purple-500 bg-opacity-40 searchBar-dropShadow rounded-80 xl:text-2xl pr-8 pl-12 font-semibold focus:shadow"
                 placeholder="Search for your next domain..."
                 onChange={(e) => {
                   setFormValue(e.target.value);
