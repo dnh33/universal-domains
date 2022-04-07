@@ -7,7 +7,6 @@
     "activityBar.inactiveForeground": "#e7e7e799",
     "activityBarBadge.background": "#2b550b",
     "activityBarBadge.foreground": "#e7e7e7",
-    "panel.border": "#e53882",
     "sash.hoverBorder": "#e53882",
     "statusBar.background": "#cf1b68",
     "statusBar.foreground": "#e7e7e7",
@@ -17,7 +16,20 @@
     "titleBar.activeBackground": "#cf1b68",
     "titleBar.activeForeground": "#e7e7e7",
     "titleBar.inactiveBackground": "#cf1b6899",
-    "titleBar.inactiveForeground": "#e7e7e799"
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "panel.border": "#e53882"
   },
-  "peacock.color": "#cf1b68"
+  "peacock.color": "#cf1b68",
+  "cSpell.words": [
+    "Alertbox",
+    "ＥＮＴＲＹＰ",
+    "gatsbyjs",
+    "glassmorphism",
+    "Hackathon",
+    "IPFS",
+    "Moralis",
+    "semibold",
+    "Vite",
+    "Vitejs"
+  ]
 }

@@ -1,0 +1,29 @@
+.text-shadow {
+  text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.25);
+}
+.text-shadow-2 {
+  text-shadow: 0px 3px 3px rgba(0, 0, 0, 0.5);
+}
+.text-shadow-3 {
+  text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.box-shadow-custom {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 70px;
+  line-height: 105px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: rgba(240, 46, 170, 0.4) 0px 5px, rgba(240, 46, 170, 0.3) 0px 10px,
+    rgba(240, 46, 170, 0.2) 0px 15px, rgba(240, 46, 170, 0.1) 0px 20px,
+    rgba(240, 46, 170, 0.05) 0px 25px;
+}
+.searchBar-dropShadow {
+  box-shadow: 0px 4px 20px rgba(104, 109, 224, 0.5);
+}
+
+.lol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
