@@ -15,23 +15,16 @@ const Navbar = () => {
           <NavLink url="/">home</NavLink>
         ) : null}
         <br />
-        <NavLink url="/about">about</NavLink>
+        <NavLink url="/">about</NavLink>
         <br />
-        <NavLink url="/videos">videos</NavLink>
+        <NavLink url="/">videos</NavLink>
         <br />
-        <a
-          href="https://github.com/AnEntrypoint/universal-domains/wiki"
-          target="_blank"
-          rel="noopener"
-          className="text-xl px-6 text-white font-semibold hover:animate-pulse hover:from-pink-500 hover:to-yellow-500"
-        >
+        <NavLink url="/">
           <span className="uppercase">wiki</span>
-        </a>
+        </NavLink>
         <br />
         <NavLink url="/faq">faq</NavLink>
-        <DashboardLink url="https://dashboard.entrypoint.ga/">
-          dashboard
-        </DashboardLink>
+        <DashboardLink url="/">dashboard</DashboardLink>
       </ul>
       {/* BURGER MENU START HERE */}
       <div className="flex relative">
@@ -61,14 +54,12 @@ const Navbar = () => {
               <NavLink url="/">home</NavLink>
             ) : null}
             <br />
-            <NavLink url="/about">about</NavLink>
+            <NavLink url="/">about</NavLink>
             <br />
-            <NavLink url="/videos">videos</NavLink>
+            <NavLink url="/">videos</NavLink>
             <br />
             <a
-              href="https://github.com/AnEntrypoint/universal-domains/wiki"
-              target="_blank"
-              rel="noopener"
+              href="/"
               className="text-xl px-6 text-white font-semibold hover:animate-pulse hover:from-pink-500 hover:to-yellow-500"
             >
               <span className="uppercase">wiki</span>
